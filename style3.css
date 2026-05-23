@@ -1,0 +1,107 @@
+/* muhammadhanifnuruddinjabbar_202432042 */
+body { 
+    background-color: #f0f2f5; 
+    font-family: 'Verdana', sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #476EAE;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 15px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #d1d9e6;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav a.active { 
+    color: white; 
+    font-weight: bold; 
+    text-decoration: underline; 
+}
+
+main { 
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.reg-form { 
+    background: white; 
+    padding: 30px; 
+    border-radius: 10px; 
+    width: 100%; 
+    max-width: 600px; 
+    border-top: 5px solid #476EAE; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+fieldset { 
+    border: none; 
+    padding: 0;
+    margin: 0;
+}
+
+legend { 
+    font-size: 1.5em; 
+    color: #476EAE; 
+    margin-bottom: 20px; 
+}
+
+.form-group { 
+    margin-bottom: 15px; 
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"], select { 
+    width: 100%; 
+    padding: 10px; 
+    margin-top: 5px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+}
+
+textarea {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button { 
+    background: #476EAE; 
+    color: white; 
+    border: none; 
+    padding: 12px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    width: 100%; 
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+button:hover {
+    background: #365587;
+}
