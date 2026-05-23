@@ -1,0 +1,21 @@
+/* muhammadhanifnuruddinjabbar_202432042 */
+body { 
+    /* Merubah warna merah menjadi warna gelap agar sesuai dengan gambar */
+    background: linear-gradient(135deg, #1c2331 0%, #2c3e50 100%); 
+}
+
+.card {  
+    border-radius: 12px;
+}
+
+.nav-link {
+    color: #ffffffb3 !important;
+}
+
+.nav-link.active {
+    color: #ffffff !important;
+}
+
+.nav-link:hover { 
+    color: #f1c40f !important; 
+}
